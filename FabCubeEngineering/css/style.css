@@ -4882,3 +4882,63 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+/* =========================================
+   COMPANY LOGO - ALL PAGES
+   ========================================= */
+
+.navbar-brand {
+   
+    text-decoration: none !important;
+    
+}
+
+.company-logo {
+    width: 30px !important;
+    height: 35px !important;
+    object-fit: contain !important;
+    display: block !important;
+    flex-shrink: 0;
+}
+
+.navbar-brand span {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 991px) {
+
+    .company-logo {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    .navbar-brand span {
+        font-size: 20px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 576px) {
+
+    .company-logo {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .navbar-brand span {
+        font-size: 18px;
+    }
+
+}
