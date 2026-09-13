@@ -4942,3 +4942,42 @@ body {
     }
 
 }
+/* Mobile / Tablet Menu Button */
+.navbar-toggler {
+    border: 1px solid var(--fc-navy) !important;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.navbar-toggler i {
+    color: var(--fc-navy);
+    font-size: 28px;
+    line-height: 1;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+/* Mobile and Tablet */
+@media (max-width: 991px) {
+
+    .main-navbar {
+        min-height: 70px;
+    }
+
+    .main-navbar .navbar-collapse {
+        background: #ffffff;
+        padding: 15px 0;
+        border-top: 1px solid #e1e7ec;
+    }
+
+    .main-navbar .nav-link {
+        padding: 12px 15px !important;
+    }
+
+    .nav-quote-btn {
+        margin: 10px 15px 0;
+        display: flex;
+    }
+}
