@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const message = quoteForm.querySelector('textarea[name="message"]').value.trim();
 
             // WhatsApp number
-            const whatsappNumber = "8275747525";
+            const whatsappNumber = "9970676801";
 
             // Create WhatsApp message
             const whatsappMessage =
