@@ -1,4 +1,3 @@
-
 /* =====================================================
    FABCUBE ENGINEERING
    MAIN JAVASCRIPT
@@ -28,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const message = quoteForm.querySelector('textarea[name="message"]').value.trim();
 
             // WhatsApp number
-            const whatsappNumber = "9970676801";
+            const whatsappNumber = "919970676801";
 
             // Create WhatsApp message
             const whatsappMessage =
@@ -51,7 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Open WhatsApp
             window.open(whatsappURL, "_blank");
-quoteForm.reset();
+
+            quoteForm.reset();
         });
 
     }
@@ -81,6 +81,8 @@ quoteForm.reset();
     });
 
 });
+
+
 /* =====================================================
    SCROLL ANIMATION
 ===================================================== */
@@ -110,6 +112,8 @@ const scrollObserver = new IntersectionObserver(
 scrollElements.forEach(function (element) {
     scrollObserver.observe(element);
 });
+
+
 /* =====================================================
    INDUSTRIES CARD STAGGER ANIMATION
 ===================================================== */
@@ -139,6 +143,8 @@ const industryObserver = new IntersectionObserver(
 industryCards.forEach(function (card) {
     industryObserver.observe(card);
 });
+
+
 /* =====================================================
    GALLERY SCROLL ANIMATION
 ===================================================== */
