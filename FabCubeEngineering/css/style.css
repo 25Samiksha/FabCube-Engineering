@@ -4981,3 +4981,102 @@ body {
         display: flex;
     }
 }
+/* =====================================================
+   CONTACT FORM - RESPONSIVE
+   ===================================================== */
+
+.quote-form-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.quote-form-wrapper form {
+    width: 100%;
+}
+
+.quote-form-wrapper .form-control,
+.quote-form-wrapper .form-select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Labels */
+.quote-form-wrapper label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Submit button */
+.form-submit-btn {
+    width: 100%;
+    min-height: 50px;
+}
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .contact-page {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact-page .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact-page .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contact-page .col-lg-5,
+    .contact-page .col-lg-7 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .quote-form-wrapper {
+        width: 100%;
+        padding: 20px 16px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .form-heading h2 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .quote-form-wrapper .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .quote-form-wrapper .row > * {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .quote-form-wrapper .form-control,
+    .quote-form-wrapper .form-select {
+        width: 100%;
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .quote-form-wrapper textarea.form-control {
+        min-height: 130px;
+        resize: vertical;
+    }
+
+    .form-submit-btn {
+        width: 100%;
+        font-size: 14px;
+    }
+}
