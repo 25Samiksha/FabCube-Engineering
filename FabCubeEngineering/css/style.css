@@ -5080,3 +5080,92 @@ body {
         font-size: 14px;
     }
 }
+/* =====================================================
+   FIX CONTACT PAGE MOBILE LAYOUT
+   ===================================================== */
+
+@media (max-width: 991px) {
+
+    .contact-page {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .contact-page .container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact-page .row {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .contact-page .row > .col-lg-5,
+    .contact-page .row > .col-lg-7 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    /* Contact information */
+    .contact-page .col-lg-5 {
+        margin-bottom: 30px;
+    }
+
+    /* Quote form */
+    .quote-form-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+        margin: 0 !important;
+        padding: 25px 18px !important;
+    }
+
+    .quote-form-wrapper form {
+        width: 100% !important;
+    }
+
+    /* Form fields */
+    .quote-form-wrapper .row {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .quote-form-wrapper .row > div {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+
+    .quote-form-wrapper input,
+    .quote-form-wrapper select,
+    .quote-form-wrapper textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .quote-form-wrapper textarea {
+        min-height: 140px;
+    }
+
+    .form-submit-btn {
+        width: 100% !important;
+    }
+}
+
+/* Prevent horizontal scrolling */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
