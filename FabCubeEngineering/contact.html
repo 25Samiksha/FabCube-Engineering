@@ -390,203 +390,128 @@
             <!-- =================================================
                  REQUEST A QUOTE
                  ================================================= -->
+<div class="col-lg-7">
+
+    <div class="quote-form-wrapper">
+
+        <div class="form-heading">
+            <span>REQUEST A QUOTE</span>
+
+            <h2>
+                Tell Us About Your Requirement
+            </h2>
+        </div>
+
+        <form id="quoteForm">
+
+            <div class="row g-3">
+
+                <!-- NAME -->
+                <div class="col-12 col-md-6">
+                    <label for="name">Your Name</label>
+
+                    <input type="text"
+                           id="name"
+                           class="form-control"
+                           name="name"
+                           placeholder="Enter your name"
+                           required>
+                </div>
+
+                <!-- COMPANY -->
+                <div class="col-12 col-md-6">
+                    <label for="company">Company Name</label>
+
+                    <input type="text"
+                           id="company"
+                           class="form-control"
+                           name="company"
+                           placeholder="Company name">
+                </div>
+
+                <!-- EMAIL -->
+                <div class="col-12 col-md-6">
+                    <label for="email">Email Address</label>
+
+                    <input type="email"
+                           id="email"
+                           class="form-control"
+                           name="email"
+                           placeholder="Enter your email"
+                           required>
+                </div>
+
+                <!-- PHONE -->
+                <div class="col-12 col-md-6">
+                    <label for="phone">Phone Number</label>
+
+                    <input type="tel"
+                           id="phone"
+                           class="form-control"
+                           name="phone"
+                           placeholder="Enter phone number"
+                           required>
+                </div>
+
+                <!-- SERVICE -->
+                <div class="col-12">
+                    <label for="service">Service Required</label>
+
+                    <select class="form-select"
+                            id="service"
+                            name="service"
+                            required>
+
+                        <option value="">
+                            Select a service
+                        </option>
+
+                        <option>Laser Cutting</option>
+                        <option>CNC Bending</option>
+                        <option>Sheet Metal Fabrication</option>
+                        <option>MIG / TIG Welding</option>
+                        <option>Stainless Steel Fabrication</option>
+                        <option>Mild Steel Fabrication</option>
+                        <option>Industrial Components</option>
+                        <option>Custom Fabrication</option>
+
+                    </select>
+                </div>
+
+                <!-- PROJECT REQUIREMENT -->
+                <div class="col-12">
+                    <label for="message">Project Requirement</label>
+
+                    <textarea class="form-control"
+                              id="message"
+                              name="message"
+                              rows="5"
+                              placeholder="Describe your requirement..."
+                              required></textarea>
+                </div>
+
+                <!-- SUBMIT -->
+                <div class="col-12">
+                    <button type="submit"
+                            class="form-submit-btn">
 
-            <div class="col-lg-7">
+                        Send Enquiry
 
-                <div class="quote-form-wrapper">
+                        <i class="bi bi-arrow-right"></i>
 
-
-                    <div class="form-heading">
-
-                        <span>
-                            REQUEST A QUOTE
-                        </span>
-
-                        <h2>
-                            Tell Us About Your Requirement
-                        </h2>
-
-                    </div>
-
-
-                    <form id="quoteForm">
-
-
-                        <div class="row g-3">
-
-
-                            <!-- NAME -->
-
-                            <div class="col-md-6">
-
-                                <label>
-                                    Your Name
-                                </label>
-
-                                <input type="text"
-                                       class="form-control"
-                                       name="name"
-                                       placeholder="Enter your name"
-                                       required>
-
-                            </div>
-
-
-                            <!-- COMPANY -->
-
-                            <div class="col-md-6">
-
-                                <label>
-                                    Company Name
-                                </label>
-
-                                <input type="text"
-                                       class="form-control"
-                                       name="company"
-                                       placeholder="Company name">
-
-                            </div>
-
-
-                            <!-- EMAIL -->
-
-                            <div class="col-md-6">
-
-                                <label>
-                                    Email Address
-                                </label>
-
-                                <input type="email"
-                                       class="form-control"
-                                       name="email"
-                                       placeholder="Enter your email"
-                                       required>
-
-                            </div>
-
-
-                            <!-- PHONE -->
-
-                            <div class="col-md-6">
-
-                                <label>
-                                    Phone Number
-                                </label>
-
-                                <input type="tel"
-                                       class="form-control"
-                                       name="phone"
-                                       placeholder="Enter phone number"
-                                       required>
-
-                            </div>
-
-
-                            <!-- SERVICE -->
-
-                            <div class="col-12">
-
-                                <label>
-                                    Service Required
-                                </label>
-
-                                <select class="form-select"
-                                        name="service"
-                                        required>
-
-                                    <option value="">
-                                        Select a service
-                                    </option>
-
-                                    <option>
-                                        Laser Cutting
-                                    </option>
-
-                                    <option>
-                                        CNC Bending
-                                    </option>
-
-                                    <option>
-                                        Sheet Metal Fabrication
-                                    </option>
-
-                                    <option>
-                                        MIG / TIG Welding
-                                    </option>
-
-                                    <option>
-                                        Stainless Steel Fabrication
-                                    </option>
-
-                                    <option>
-                                        Mild Steel Fabrication
-                                    </option>
-
-                                    <option>
-                                        Industrial Components
-                                    </option>
-
-                                    <option>
-                                        Custom Fabrication
-                                    </option>
-
-                                </select>
-
-                            </div>
-
-
-                            <!-- PROJECT REQUIREMENT -->
-
-                            <div class="col-12">
-
-                                <label>
-                                    Project Requirement
-                                </label>
-
-                                <textarea class="form-control"
-                                          name="message"
-                                          rows="5"
-                                          placeholder="Describe your requirement..."
-                                          required></textarea>
-
-                            </div>
-
-
-                            <!-- SUBMIT -->
-
-                            <div class="col-12">
-
-                                <button type="submit"
-                                        class="form-submit-btn">
-
-                                    Send Enquiry
-
-                                    <i class="bi bi-arrow-right"></i>
-
-                                </button>
-
-                            </div>
-
-
-                            
-
-                            </div>
-
-
-                        </div>
-
-                    </form>
-
+                    </button>
                 </div>
 
             </div>
 
-
-        </div>
+        </form>
 
     </div>
 
-</section>
+</div>
+        </div>
+    </div>
+ </section>
 
 
 <!-- =====================================================
